@@ -5,8 +5,8 @@
 body {
   margin: 0;
   background: #000000;
-  color: #c7c8d1;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #0c8f47;
+  font-family: "serif";
 }
 h2 {
   margin: 0;
@@ -16,7 +16,7 @@ h2 {
   letter-spacing: -0.04em;
   text-transform: uppercase;
   color: #358d0f;
-  font-family: Impact;
+  font-family:"Tahoma";
 }
 
 .content > p {
@@ -26,6 +26,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.15em;
   line-height: 1.4;
+   font-family:"Times New Roman";
 }
 #interests {
   margin-top: 32px;
@@ -51,12 +52,12 @@ h2 {
 }
 
 #interests li {
-  color: #555;
+  color: #f9f6f6;
   font-size: 1rem;
   font-weight: 600;
   padding: 10px 20px;
-  background: #fff;
-  border: 1px solid #065624;
+  background: #058b2e;
+  border: 3px solid #086304;
   border-radius: 100px;
   transition:
     background 0.25s ease,
@@ -68,7 +69,7 @@ h2 {
 #interests li:hover {
   background: #000;
   color: #fff;
-  border-color: #000;
+  border-color: #1149c4;
   transform: translateY(-2px);
 }
 .sidebar-img {
@@ -117,8 +118,8 @@ nav {
   align-items: center;
   margin-bottom: 48px;
   padding: 16px 24px;
-  background: #32ca37;
-  border: 1px solid #000000;
+  background: #0f6f0f;
+  border: 3px solid #045814;
   border-radius: 12px;
 }
 
@@ -128,7 +129,7 @@ nav h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #000;
+  color: #ffffff;
 }
 
 #nav-ul {
@@ -140,7 +141,7 @@ nav h1 {
 }
 
 .nav-li a {
-  color: #666;
+  color: #f7f7f7;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
