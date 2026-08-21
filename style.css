@@ -181,11 +181,11 @@ nav h1 {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #0e07d8;
+  color: #fcfcfe;
   padding: 16px 20px;
   font-size: 1.1rem;
   font-weight: 500;
-  background: #268e9e;
+  background:#2c7119;
   border: 3px solid #0e0ece;
   border-radius: 12px;
   transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
