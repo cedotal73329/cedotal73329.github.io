@@ -42,7 +42,7 @@ $(function () {
     createPlatform(500, 300, 1, 440, "darkblue");
     createPlatform(580, 500, 120, 300, "darkblue");
     createPlatform(700, 400, -50, -400, "darkblue");
-    createPlatform(0, 739, 1400, 1,);
+    createBadPlatform(0, 739, 1400, 1,);
     createPlatform(600, 390, 100, 3, "white");
     createPlatform(600, 280, 100, 3, "white");
     createPlatform(600, 140, 100, 1, "darkblue");
