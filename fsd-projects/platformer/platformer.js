@@ -35,7 +35,7 @@ $(function () {
     createPlatform(490, 570, 4, 4, "darkblue");
     createPlatform(200, 450, 100, 10, "darkblue");
     createPlatform(100, 320, 30, 50, "darkblue");
-    createPlatform(390, 220, 10, 10, "darkblue");
+    createPlatform(390, 210, 10, 10, "darkblue");
     createPlatform(700, 499, 2, 2, "red");
     createPlatform(1000, 500, -100, -10, "darkblue");
     createPlatform(600, 0, 50, 400, "darkblue");
