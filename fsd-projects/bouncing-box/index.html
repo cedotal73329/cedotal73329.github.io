@@ -8,7 +8,8 @@
       .box {
         width: 70px;
         height: 70px;
-        background-color:crimson;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsZuMw1O64GP9WMUffnPyzXDN38gdvzEAoY3ONjwMIOC4uCwrUqhOoUqcG:https://static.wikia.nocookie.net/ad-astra-mod/images/c/c4/Moon.v2.png/revision/latest/thumbnail/width/360/height/360%3Fcb%3D20230913072614&s=10);
+        background-size: cover;
         font-size: 300%;
         text-align: center;
         user-select: none;
@@ -21,7 +22,8 @@
 
       .board {
         height: 100vh;
-        background-color:midnightblue;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_R3cA25iFVTmruFEE7JgukKhHQqv6w80H_fmgyE1cyg&s=10);
+        background-size:cover;
     </style>
     <!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
   </head>
@@ -38,7 +40,7 @@
         //////////////////////////////////////////////////////////////////
         /////////////////// SETUP DO NOT DELETE //////////////////////////
         //////////////////////////////////////////////////////////////////
-        var randNum = Math.random() * 100
+        var randNum = Math.random() * 100;
         var box = jQuery(".box"); // reference to the HTML .box element
         var board = jQuery(".board"); // reference to the HTML .board element
         var boardWidth = board.width(); // the maximum X-Coordinate of the screen
